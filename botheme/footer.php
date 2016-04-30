@@ -7,7 +7,7 @@
         <div class="datenschutz">
           <a href="<?php echo get_permalink( get_page_by_title( 'Datenschutz' ) ) ?>">Datenschutz</a>
         </div>
-
+        <div class="clearfix"></div>
 			</footer>
 			<!-- /footer -->
 
@@ -26,7 +26,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
-    
+
 		<?php wp_footer(); ?>
 
 	</body>

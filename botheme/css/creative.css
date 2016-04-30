@@ -178,7 +178,8 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    //background-image: url(../img/header.jpg);
+    background-image: url(../img/handyvertrag2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -473,4 +474,32 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+
+.contract-section .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contract-section h1 {
+    margin-bottom: 40px;
+}
+
+footer {
+    padding: 10px 20px;
+}
+
+footer * {
+    float: right;
+    padding-left: 15px;
+}
+
+.clearfix {
+    float: none;
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+    width: 100%;
 }
