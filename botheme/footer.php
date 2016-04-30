@@ -20,7 +20,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.fittext.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 
+    <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+    
 		<?php wp_footer(); ?>
 
 	</body>

@@ -1,12 +1,20 @@
 
-
+<?php                  
+    $categories = get_categories( array(
+      'orderby' => 'name',
+      'order'   => 'ASC'
+    ) );
+?>    
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1><?php the_title() ?></h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <?php  while ( have_posts() ) : the_post(); ?>
+                    <p><?php the_content() ?></p>
+                <?php endwhile; wp_reset_query(); ?>
+                
+                <a href="#<?php echo $categories[0]->slug ?>" class="btn btn-primary btn-xl page-scroll">Hier entlang</a>
             </div>
         </div>
     </header>
