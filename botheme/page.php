@@ -1,10 +1,5 @@
 <?php get_header(); ?>
 
-
-  <?php $datetime = new DateTime("now"); ?>
-
-  <?php var_dump(strtotime($datetime)) ?>
-
   <?php get_template_part('parts/header_pic') ?>
 
 	<main role="main">
