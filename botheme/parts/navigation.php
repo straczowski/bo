@@ -22,7 +22,7 @@
                 <ul class="nav navbar-nav navbar-right">
                 <?php foreach ( $categories as $category){ ?>
                     <li>
-                        <a class="page-scroll" href="#<?php echo $category->slug ?>">About</a>
+                        <a class="page-scroll" href="#<?php echo $category->slug ?>"><?php echo $category->name ?></a>
                     </li>
                 <?php } ?>
                 </ul>
