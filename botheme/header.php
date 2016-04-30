@@ -29,6 +29,8 @@
   </head>
   <body <?php body_class(); ?>> 
 
+
+  <?php get_template_part('parts/category_to_js'); ?>
   <?php get_template_part('parts/navigation') ?>
 
     <header>
