@@ -9,7 +9,7 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
 
     <!-- Favicon -->
-    <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri(); ?>/img/coffee-cup/favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri(); ?>/img/flame/favicon.ico' />
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" type="text/css">

@@ -179,7 +179,7 @@ header {
     text-align: center;
     color: #fff;
     //background-image: url(../img/header.jpg);
-    background-image: url(../img/handyvertrag2.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -505,6 +505,7 @@ footer * {
 }
 
 .subtitle span {
-    display: inline;
-    background: rgba(0,0,0,0.5);
+    /*display: inline;*/
+    /*background: rgba(0,0,0,0.5);*/
+    color: white;
 }

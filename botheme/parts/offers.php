@@ -11,7 +11,7 @@
   <section class="contract-section" id="<?php echo  $category->slug ?>">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-xs-12">
           <h1><?php echo  $category->name ?></h1>
         </div>
       </div>
@@ -28,7 +28,7 @@
         $posts = get_posts($args); #var_dump($posts);
           ?>
         <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col-lg-6 col-xs-12">
             <h3><?php the_title(); ?></h3>
             <?php the_content() ?>
           </div>

@@ -9,7 +9,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1><?php the_title() ?></h1>
+                <h1><?php the_title(); ?></h1>
                 <hr>
                 <p class="subtitle"><span><?php echo $post->post_content ?></span></p>
 
